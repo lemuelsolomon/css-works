@@ -1,8 +1,10 @@
 .container {
     border: 5px solid #2d56bd;
     display: flex;
-    justify-content: space-evenly;
 }
-
 /* ways to justify content in flexbox: flex-star flex-end center space-around
 space-between space-even */
+
+.search {
+    margin-left: auto;
+}
