@@ -1,11 +1,16 @@
 .container {
-    border: 5px solid #2d56bd;
+    border: 5px solid #66ff00;
     display: flex;
-    justify-content: flex-end;
 }
 /* ways to justify content in flexbox: flex-star flex-end center space-around
 space-between space-even */
 
-.home {
-    margin-right: auto;
+/* this allows the search class item to do all the flexing
+.search {
+    flex: 2;
+} */
+
+/* make the home and logout items flex but keep the earch item size fixed */
+.home, .logout {
+flex: 2;
 }
