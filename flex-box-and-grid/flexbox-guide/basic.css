@@ -1,13 +1,20 @@
-.container {
+.container > div {
     padding: 10px;
     text-align: center;
     font-size: 2em;
     color: #000000;
 }
 
+
+body {
+    margin: 0;
+}
+
 html, body {
+    box-sizing: border-box;
+    height: 100%;
+    padding: 10px;
     background-color: #000000;
-    margin: 10px;
 }
 
 .container > div:nth-child(1), .container > div:nth-child(3) {

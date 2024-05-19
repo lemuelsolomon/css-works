@@ -1,8 +1,24 @@
 .container {
-    border: 5px solid #66ff00;
+    border: 5px solid #b64ce3;
     display: flex;
+    height: 100%;
+    align-items: center;
 }
-/* ways to justify content in flexbox: flex-star flex-end center space-around
+
+
+.logout {
+    align-self: flex-start;
+}
+
+.home {
+    align-self: flex-end;
+}
+
+/* 
+Use  align-items: center;
+justify-content: center; to center items on the main and cross axis. */
+
+/* ways to justify co ntent in flexbox: flex-star flex-end center space-around
 space-between space-even */
 
 /* this allows the search class item to do all the flexing
@@ -10,7 +26,8 @@ space-between space-even */
     flex: 2;
 } */
 
-/* make the home and logout items flex but keep the earch item size fixed */
+/* make the home and logout items flex but keep the earch item size fixed
 .home, .logout {
 flex: 2;
-}
+} */
+
