@@ -1,18 +1,12 @@
 .container {
     border: 5px solid #b64ce3;
     display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
     height: 100%;
-    align-items: center;
+    align-items: flex-end;
 }
 
-
-.logout {
-    align-self: flex-start;
-}
-
-.home {
-    align-self: flex-end;
-}
 
 /* 
 Use  align-items: center;
